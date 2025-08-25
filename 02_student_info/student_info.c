@@ -6,7 +6,9 @@ int main(void) {
 
     printf("\nStudent ID: \t\t\t10234");
 
-    printf("\nStudent ID -Course ID is: \t7963");
+    printf("\nStudent ID - Course ID is: \t7963");
     
+    printf("\n");
+
     return 0;
 }
