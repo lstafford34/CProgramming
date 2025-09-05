@@ -10,20 +10,20 @@ void two(void);
 void one_three(void);
 
 int main(void) {
-    printf("starting now\n");
+    puts("starting now");
     one_three();
+    puts("done!");
     return 0;
 }
 
 // Function implementations
 void two(void) {
-    printf("two\n");
+    puts("two");
     
 }
 
 void one_three(void) {
-    printf("one\n");
+    puts("one");
     two();
-    printf("three\n");
-    printf("done!\n");
+    puts("three");
 }
